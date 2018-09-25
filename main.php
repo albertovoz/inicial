@@ -6,8 +6,8 @@ $animales = [
     "Monnie" => 7,
     "Banh" => 10
 ];
-echo $animales["Muffinhead"] . PHP_EOL; // Devuelve 14
-echo $animales["Monnie"];
+echo $animales["Muffinhead"] 
+echo $animales["Monnie"]
 
 
 function suma (var1,var2,var3)
