@@ -1,6 +1,17 @@
-<?php
-
-$heroe= array (
+<html>
+<head>
+<title>Pagina de prueba</title>
+Aquí van otras etiquetas como las META, scripts y estilos
+</head>
+<body>
+ <p>
+<table style="width:100%" border="1">
+  <tr>
+      <th>Lista de heroes</th>
+      </tr>
+    <tr><td><?php
+    
+    $heroe= array (
     array("nombre"=>"Hulk"),
     array("nombre"=>"Spiderman"),
     array("nombre"=>"Batman"),
@@ -16,4 +27,5 @@ function suma ($var1,$var2,$var3)
 
 var_dump($heroe);
 
-?>
+?></td></tr>
+</table>
